@@ -1,9 +1,7 @@
-````markdown
 # Retrieval-Augmented Generation (RAG) System
 
 This project is my implementation of a **Retrieval-Augmented Generation (RAG) system** built with **Java Spring Boot**.  
 It allows users to upload PDFs, store embeddings in **PostgreSQL with pgvector**, perform semantic search, and generate context-aware answers using **OpenAI GPT**.  
-
 
 ## 🚀 Features
 - Upload PDFs and automatically extract text.
@@ -13,7 +11,6 @@ It allows users to upload PDFs, store embeddings in **PostgreSQL with pgvector**
 - **React frontend** for document upload and interactive Q&A.
 - Fully containerized with **Docker**.
 
----
 
 ## 🛠️ Tech Stack
 - **Backend**: Java 21, Spring Boot, Spring AI  
@@ -33,7 +30,7 @@ It allows users to upload PDFs, store embeddings in **PostgreSQL with pgvector**
 - OpenAI API key
 
 ### Setup Instructions
-````
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/PIYUSHBONDE/RAG-System.git
