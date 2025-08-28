@@ -4,7 +4,6 @@
 This project is my implementation of a **Retrieval-Augmented Generation (RAG) system** built with **Java Spring Boot**.  
 It allows users to upload PDFs, store embeddings in **PostgreSQL with pgvector**, perform semantic search, and generate context-aware answers using **OpenAI GPT**.  
 
----
 
 ## 🚀 Features
 - Upload PDFs and automatically extract text.
@@ -23,7 +22,6 @@ It allows users to upload PDFs, store embeddings in **PostgreSQL with pgvector**
 - **LLM Integration**: OpenAI GPT  
 - **Deployment**: Docker, Docker Compose  
 
----
 
 ## ⚡ Getting Started
 
@@ -35,11 +33,11 @@ It allows users to upload PDFs, store embeddings in **PostgreSQL with pgvector**
 - OpenAI API key
 
 ### Setup Instructions
+````
 1. Clone the repository:
    ```bash
    git clone https://github.com/PIYUSHBONDE/RAG-System.git
    cd RAG-System
-````
 
 2. Start PostgreSQL with pgvector:
 
@@ -73,7 +71,6 @@ It allows users to upload PDFs, store embeddings in **PostgreSQL with pgvector**
 
 6. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
----
 
 ## 📖 Usage
 
@@ -81,7 +78,6 @@ It allows users to upload PDFs, store embeddings in **PostgreSQL with pgvector**
 * Ask a question in natural language.
 * The system retrieves relevant chunks and uses GPT to return an accurate, context-aware answer.
 
----
 
 ## 🔮 Future Improvements
 
@@ -90,11 +86,9 @@ It allows users to upload PDFs, store embeddings in **PostgreSQL with pgvector**
 * Improved ranking algorithms for semantic search.
 * Integration with more LLM providers.
 
----
 
 ## 📎 Repository
 
 This project is maintained under my account:
 👉 [RAG System on GitHub](https://github.com/PIYUSHBONDE/RAG-System)
 
-```
